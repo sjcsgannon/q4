@@ -1,0 +1,140 @@
+#wrapper{
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+#logo{
+  height: 75px;
+}
+body{
+  background-color: #0D2025;
+}
+p{
+  font-family: 'Castoro', serif;
+  color: white;
+  font-weight: 800;
+}
+#nunito{
+  font-family: 'Nunito', sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+}
+nav{
+	text-align: center;
+}
+li{
+	margin: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'Nunito', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #7DAB9B;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: #E47855;
+}
+.heading{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+
+}
+.headerp{
+	padding-top: 40px;
+}
+.button{
+    background-color: #E47855;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+.hero-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+}
+.hero-title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    color: #8DB7B7;
+}
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: url(../images/fislands.jpg);
+}
+#grid-container{
+  display: grid;
+  grid-template-rows: 100vh auto 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "main main main"
+  "main2 main3 main4"
+  "footer footer footer";
+  grid-gap: 1vw;
+}
+#main{
+  grid-area: main;
+    background: url(../images/fislands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main2{
+	grid-area: main2;
+}
+#main3{
+	grid-area: main3;
+}
+#main4{
+	grid-area: main4;
+}
+#footer{
+	grid-area: footer;
+	text-align: center;
+	color: #E47855;
+}
+.overflow{
+	height: 200px;
+	overflow: hidden;
+}
+h2{
+	color: #E47855;
+	border-bottom: #E47855 3px solid;
+	text-align: center;
+}
+.footer{
+	color: #E47855;
+	font-family: 'Nunito', sans-serif;
+}
+.imgw{
+	width: 100%;
+}
+h1{
+	background-color: rgba(0,0,0,.4);
+}

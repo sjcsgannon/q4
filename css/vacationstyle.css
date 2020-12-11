@@ -1,0 +1,121 @@
+#wrapper{
+  max-width: 95%;
+  margin: 0 auto;
+}
+#grid-container{
+  display: grid;
+  grid-template-rows: 200px auto auto auto auto 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "aside main main2"
+  "main3 main4 main4"
+  "main5 main5 main6"
+  'main7 main8 main9'
+  "footer footer footer";
+  grid-gap: 1vw;
+}
+#header{
+  grid-area: header;
+  background-color: blue;
+}
+body{
+  background-color: aqua;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+#aside{
+  grid-area: aside;
+}
+#main{
+  grid-area: main;
+}
+#main2{
+  grid-area: main2;
+}
+#main3{
+  grid-area: main3;
+}
+#main4{
+  grid-area: main4;
+}
+#main5{
+  grid-area: main5;
+}
+#main6{
+  grid-area: main6;
+}
+#main7{
+  grid-area: main7;
+}
+#main8{
+  grid-area: main8;
+}
+#main9{
+  grid-area: main9;
+}
+#footer{
+  grid-area: footer;
+  text-align: center;
+}
+.overflow{
+  width: 100%;
+}
+#logo{
+  height: 75px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+nav{
+  text-align: center;
+}
+li{
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #7DAB9B;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: #E47855;
+}
+.heading{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+
+}
+.headerp{
+  padding-top: 40px;
+}
+.button{
+    background-color: #E47855;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+.footer{
+  color: #E47855;
+  font-family: 'Nunito', sans-serif;
+}

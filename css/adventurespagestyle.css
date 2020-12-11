@@ -1,0 +1,140 @@
+#wrapper{
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+#logo{
+  height: 75px;
+}
+body{
+  background-color: #0D2025;
+}
+p{
+  font-family: 'Castoro', serif;
+  color: white;
+  font-weight: 800;
+}
+#nunito{
+  font-family: 'Nunito', sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+}
+nav{
+	text-align: center;
+}
+li{
+	margin: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'Nunito', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #7DAB9B;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: #E47855;
+}
+.heading{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+
+}
+.headerp{
+	padding-top: 40px;
+}
+.button{
+    background-color: #E47855;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+h1{
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 58px;
+	color: #7DAB9B;
+}
+#grid-container{
+  display: grid;
+  grid-template-rows: 80px auto 80px auto 80px auto 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "main main main"
+  "main2 main2 main2"
+  "main3 main3 main3"
+  "main4 main4 main4"
+  "main5 main5 main5"
+  "main6 main6 main6"
+  "footer footer footer";
+  grid-gap: 1vw;
+}
+#main{
+  grid-area: main;
+}
+#main2{
+  grid-area: main2;
+}
+#main3{
+  grid-area: main3;
+}
+#main4{
+  grid-area: main4;
+}
+#main5{
+	grid-area: main5;
+}
+#main6{
+	grid-area: main6;
+}
+#footer{
+	grid-area: footer;
+	text-align: center;
+	color: #E47855;
+}
+.subtitles{
+	color: #E47855;
+	font-size: 36px;
+	border-bottom: 3px solid #E47855;
+}
+.rfloat{
+	float: right;
+}
+.overflow{
+	height: 300px;
+	overflow: hidden;
+	width: 400px;
+}
+.lfloat{
+	float: left;
+}
+.link{
+	color: white;
+	border-radius: 0px;
+	background-color: #89AABF;
+	padding: 8px 8px 8px 8px;
+}
+img{
+	padding-right: 10px;
+}
+.footer{
+	color: #E47855;
+	font-family: 'Nunito', sans-serif;
+}
