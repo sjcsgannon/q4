@@ -1,0 +1,118 @@
+body,html{
+	background-color: #FF5D38;
+}
+#painting{
+    background-color: #fff4db;
+    width: 450px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+}
+#toprow{
+    height:205px;
+}
+.bigbox{
+	width: 250px;
+	height: 100px;
+}
+.red{
+	background-color: #DB2D3E;
+}
+.right{
+	float: right;
+}
+#divider1{
+	height: 5px;
+	width: 250px;
+}
+.black{
+	background-color: black;
+}
+#topleftcolumn{
+}
+.mediumbox{
+	width: 57px;
+	height: 70px;
+}
+.divider2{
+	width: 5px;
+	height: 205px;
+}
+#toprightcoumn{
+}
+.divider3{
+	width: 57px;
+	height: 5px;
+}
+.purple{
+	background-color: #87138F;
+}
+.mediumbox2{
+	width: 57px;
+	height: 55px;
+}
+.bigbox2{
+	height: 205px;
+	width: 133px;
+}
+#middlerow{
+	height: 50px;
+}
+.divider4{
+	width: 450px;
+	height: 5px;
+}
+.green{
+	background-color: #55DB5B;
+}
+.bigbox3{
+	width: 245px;
+	height: 50px;
+}
+.divider5{
+	width: 5px;
+	height: 50px;
+}
+#middlecolumn{
+}
+.bigbox4{
+	width: 150px;
+	height: 22px;
+}
+#divider6{
+	width: 150px;
+	height: 6px;
+}
+#middleleftcol{
+}
+.smallbox{
+	width: 45px;
+	height: 22px;
+}
+#divider7{
+	width: 45px;
+	height: 6px;
+}
+.bottomrow{
+	height: 86px;
+}
+.bigbox5{
+	width: 200px;
+	height: 86px;
+}
+.divider8{
+	width: 5px;
+	height: 86px;
+}
+#bottomcol{
+}
+.smallbox2{
+	width: 40px;
+	height: 40px;
+}
+#divider9{
+	width: 40px;
+	height: 6px;
+}
